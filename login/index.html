@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <div class="form-side">
+            <a href="#" title="Logo">
+                <img class="logo" src="img/cenamec.jpeg" alt="Logo">
+            </a>
+            <form class="my-form">
+                <div class="login-welcome-row">
+                    <h1 style="text-align: center;">Bienvenido &#x1F44F;</h1>
+                </div>
+                <div class="socials-row">
+                     <div class="social-media-buttons">
+                        <button class="social-media-button">
+                            <a href="https://www.instagram.com/fundacioncenamec/?hl=es-la">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-instagram">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        </button>
+                        <button class="social-media-button">
+                            <a href="https://twitter.com/Funda_cenamec1?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                            </svg>
+                        </a>
+                        </button>
+
+                        <button class="social-media-button">
+                            <i class="fa-brands fa-youtube fa-2xl" style="color: white;"></i>
+                        </button>
+                        <button class="social-media-button">
+                            <a href="https://www.facebook.com/CENAMEC.FUNDACION/?locale=es_LA">
+                            <i class="fa-brands fa-facebook-f fa-2xl" style="color: white;"></i>
+                        </a>
+                        </button>
+                    </div>
+
+                    </a>
+                </div>
+                <div class="divider">
+                    <span class="divider-line"></span>
+
+                    <span class="divider-line"></span>
+                </div>
+                <div class="text-field">
+                    <label for="email">Cedula:
+                        <input type="text" id="email" name="email" autocomplete="off" placeholder="Tu Cedula" required>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 576 512"  stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round">
+                            <path
+                                d="M528 160V416c0 8.8-7.2 16-16 16H320c0-44.2-35.8-80-80-80H176c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V160H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM272 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm104-48c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z">
+                            </path>
+                            </svg>
+                    </label>
+                </div>
+                <div class="text-field">
+                    <label for="password">Password:
+                        <input id="password" type="password" name="password" placeholder="Contraseña"
+                            pattern="^(?=.*[1-9])(?=.*\d)[1-9\d]{6,}$" required>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z">
+                            </path>
+                            <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"></path>
+                            <path d="M8 11v-4a4 4 0 1 1 8 0v4"></path>
+                        </svg>
+                    </label>
+                </div>
+
+                <button class="my-form__button" type="submit">
+                    Iniciar Sesión
+                </button>
+
+            </form>
+        </div>
+
+        <img src="img/logo3.png" id="img" class="img-responsive">
+
+
+        <img src="img/logo4.png"  class="img-responsive img2">
+
+        <div class="info-side">
+            <img src="img/1.png" alt="Mock" class="mockup" />
+            <div class="welcome-message">
+                <h2>Hola a todos 👋</h2>
+                <p>
+                    Your ultimate guide to navigating the world
+                    and discovering new places with ease.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
